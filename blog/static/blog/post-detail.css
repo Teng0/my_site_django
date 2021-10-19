@@ -74,3 +74,121 @@ body {
     padding: 0.15rem 0.5rem;
     border-radius: 10px;
   }
+  #comment_form{
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+
+  }
+  #comment_form button {
+    font: inherit;
+    background-color: #390281;
+    color: white;
+    border: 1px solid 390281;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+  #comment_form button:active,
+  #comment_form button:hover {
+    background-color: #6305dd;
+    border-color: #6305dd;
+
+  }
+
+  .form_control{
+    margin-bottom: 1rem;
+  }
+  .form_control label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+  }
+.form_control input,
+.form_control textarea {
+  display: block;
+  width: 100%;
+  padding: 0.25rem;
+  border-radius: 6px;
+  border-color: lightgrey;
+}
+.errorlist{
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  color: red;
+}
+.invalid label{
+ color:red;
+}
+.invalid input,
+.invalid textarea {
+  border-color: rgba(250, 162, 127, 0.89);
+  background-color: rgba(250, 162, 127, 0.89);
+}
+#allert{
+  margin: 8rem auto 3rem auto;
+  border: 1px solid salmon;
+  border-color:red;
+  background-color:rgba(250, 162, 127, 0.89) ;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+
+}
+
+#allert a{
+  text-decoration: none;
+  border: 1px solid rgb(248, 107, 91);
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+#comments{
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 60rem;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+ 
+}
+#comments ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#comments li{
+  margin-bottom: 1rem;
+  border-bottom: 2px solid gainsboro;
+}
+#comments li:last-of-type{
+border-bottom: none;
+}
+#read_later{
+  margin:2rem 0;
+}
+#read_later button{
+
+  text-decoration: none;
+  border: 1px solid rgb(29, 4, 251);
+  background-color: rgb(76, 57, 245);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+#read_later button:active,
+  #read_later button:hover {
+    background-color: rgb(29, 4, 251);
+    border-color: rgb(76, 57, 245);
+
+  }
